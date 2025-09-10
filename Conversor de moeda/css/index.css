@@ -1,0 +1,60 @@
+.background-video {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.Conversor {
+  width: 600px;
+  height: 350px;
+  /* Transparência tipo vidro */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  /* Efeito vidro fosco */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* Centralizar conteúdo dentro da div */
+  display: flex;
+  flex-direction: column; /* título em cima, input embaixo */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.Conversor h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.Conversor #real{
+    width: 250px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.Conversor #span {
+    margin-bottom: 10px;
+
+}
+
+.Conversor #botao {
+    margin-bottom: 10px;
+}
